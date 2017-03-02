@@ -1,0 +1,25 @@
+{
+  "name": "micro-ten-hour-videos",
+  "version": "0.0.1",
+  "description": "A micro-service that returns a random 10 hour video upon each request.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro .'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxom/micro-ten-hour-videos.git"
+  },
+  "author": "Jake Moxey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jxom/micro-ten-hour-videos/issues"
+  },
+  "homepage": "https://github.com/jxom/micro-ten-hour-videos#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "micro": "^7.0.6",
+    "micro-api": "^0.1.1"
+  }
+}
