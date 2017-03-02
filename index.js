@@ -36,8 +36,8 @@ const getRandomVideo = () => {
 const handleRandomVideoJson = () => getRandomVideo();
 
 const handleRandomVideoRender = () => {
-  const randomVideo = getRandomVideo();
-  return handlebars.compile(sourceHtml)({ title: randomVideo.title, src: randomVideo.src });
+  const { title, src } = getRandomVideo();
+  return handlebars.compile(sourceHtml)({ title, src });
 }
 
 const api = microApi([
