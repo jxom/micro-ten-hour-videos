@@ -23,7 +23,7 @@ const sourceHtml = `
     </style>
   </head>
   <body>
-    <iframe width="560" height="315" src="{{src}}?autoplay=1&iv_load_policy=3&loop=1" frameborder="0"></iframe>
+    <iframe src="{{src}}?autoplay=1&iv_load_policy=3&loop=1" frameborder="0"></iframe>
   </body>
 </html>
 `;
